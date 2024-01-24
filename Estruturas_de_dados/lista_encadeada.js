@@ -38,7 +38,7 @@ class LinkedList{
 
 var listaEncadeada = new LinkedList();
 
-for (var i = 1; i <= 4; i++) {
+for (let i = 1; i <= 4; i++) {
     listaEncadeada.add(new Node(i));
     listaEncadeada.print();
 }
